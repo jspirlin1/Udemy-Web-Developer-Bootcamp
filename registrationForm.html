@@ -12,8 +12,9 @@
 	<input id="firstname" type="text" placeholder="firstname" required>
 
 	<label for="lastname">Last Name:</label>
-	<input id="lastname" type="text" placeholder="lastname" required><br>
+	<input id="lastname" type="text" placeholder="lastname" required>
 
+   <div>
 	<label for="male">Male</label>
 	<input name="gender" id="male" type="radio" value="MALE">
 
@@ -21,14 +22,18 @@
 	<input name="gender" id="female" type="radio" value="FEMALE">
 
 	<label for="other">Other</label>
-	<input name="gender" id="other" type="radio" value="OTHER"><br>
- 
+	<input name="gender" id="other" type="radio" value="OTHER">
+   </div>
+
+   <div>
     <label for="email">Email:</label>
     <input id="email" type="email" placeholder="email" required>
 
     <label for="password">Password</label>
-    <input id="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters"><br>
+    <input id="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+   </div>
 
+   <div>
     <label for="birthday">Birthday</label>
     <select name="month" id="month">
        <option value="0" selected disabled>Month</option>	
@@ -114,10 +119,13 @@
        <option value="1990">1990</option>
        <option value="1989">1989</option>
        <option value="1988">1988</option>
-    </select><br>
+    </select>
+   </div>
     
+   <div>
     <label for="checkbox">I agree to the terms and conditions</label>
-    <input name="checkbox id="checkbox" type="checkbox"><br>
+    <input name="checkbox id="checkbox" type="checkbox">
+   </div>
 
     <input type="submit" value="Submit">
 </form>
