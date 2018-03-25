@@ -1,0 +1,55 @@
+/*Type Selectors*/
+
+/*li {
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+*/
+
+/*Class, Attributes, and Pseudo-Class Selectors*/
+
+/*.hello {
+
+}
+
+input[type="text"] {
+
+}
+*/
+
+/*ul {
+ color: purple; 	
+}
+*/
+
+body {
+  color: red;	
+}
+
+/*p {
+  color: green;	
+}
+*/
+
+ul {
+ color: blue; 	
+}
+
+li {
+ color: orange;	
+}
+
+.highlight {
+  color: yellow;	
+}
+
+#special {
+  color: pink;	
+}
