@@ -1,0 +1,43 @@
+p {
+
+/*Content - Width Height*/
+/*You could also use % like 50%
+which is half the body or page*/
+
+width: 50%;
+
+/*width: 200px;*/
+/*height: 300px;*/
+
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding - Space between element 
+and all 4 sides,inside the border*/
+
+/*padding: 10px;*/
+
+/*You could also add padding to just
+one side (left) of the element*/
+padding-left: 40px;
+
+/*Margin - Space on the outside of 
+the border on all 4 sides between elements*/
+
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+
+/*You could also get different values for all 
+4 sides of a margin (top-right-bottom-left)*/
+
+/*margin: 20px 40px 500px 100px;*/
+
+/*Finally, you could also make a side of a 
+margin auto to center an element*/
+
+/*margin: 0 auto 0 auto;  or*/
+/*margin: 0 auto;  or */  
+margin: 50px 20px;
+
+}
