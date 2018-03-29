@@ -4,3 +4,23 @@ navbar and the container*/
 body {
  padding-top: 70px;	
 }
+
+.jumbotron {
+  color:#2c3e50;
+  background-color: #ecf0f1;
+}
+
+/*changes navbar background to light-blue*/
+.navbar-inverse {
+  background: #2c3e50;	
+}
+
+/*changes navbar text to white*/
+.navbar-inverse .navbar-nav>li>a {
+  color: white;	
+}
+
+/*changes navbar-brand text to white*/
+.navbar-inverse .navbar-brand {
+  color: white;	
+}
