@@ -1,0 +1,6 @@
+/*navbars should always be 70px wide
+This adds a little space between the
+navbar and the container*/
+body {
+ padding-top: 70px;	
+}
