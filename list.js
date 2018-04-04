@@ -18,5 +18,5 @@ while(input !== "quit"){
   //ask again for new input
   input = prompt("What would you like to do?");
 }
-console.log("OK, YOU QUIT THE APP!")//Check if user's input is in a list
+console.log("OK, YOU QUIT THE APP!");
 }, 500);  
