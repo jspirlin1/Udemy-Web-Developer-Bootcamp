@@ -12,7 +12,7 @@ var obj = {
 		return x + y;
 	}
 }
-//console is an object and add is a method
+//console is an object and log and add are methods
 console.log(obj);
 
 console.log(obj.add(10,5));
