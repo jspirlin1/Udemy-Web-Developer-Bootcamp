@@ -13,6 +13,6 @@ console.log(p);
 var p = document.getElementsByTagName("p")[0];
 console.log(p);
 
-// 3. querySelector
+// 4. querySelector
 var p = document.querySelector("#first");
 console.log(p);
