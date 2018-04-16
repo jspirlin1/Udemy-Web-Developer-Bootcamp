@@ -1,4 +1,4 @@
-// Get age and convet it to a Number (prompt always returns a string)
+// Get age and convert it to a Number (prompt always returns a string)
 var age = Number(prompt("It's your birthday, how old are you?"));
 
 // If age is a negative number
