@@ -36,7 +36,7 @@ p2Button.addEventListener("click", function(){
 
 resetButton.addEventListener("click", function(){
 	reset();
-});
+}); 
 
 //function to reset the scores back to 0 if user changes
 //input value of Playing to: during game
