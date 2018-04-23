@@ -1,0 +1,118 @@
+body {
+	background-color: #232323;
+	/*Get rid of black space on each side between body
+	and h1*/
+	margin: 0;
+  /*Change font of all buttons, h1, and spans*/
+  /*Avenir is for most browsers and Montserrat for 
+  others*/
+  font-family: "Montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	/*Add rounded-corners to squares*/
+	border-radius: 15%;
+	/*Add fade-in/fade-out effect to squares*/
+	/*Transition will determine which property to
+	fade-in/out and by how many seconds?*/
+	transition: background 0.6s;
+	/*Used for browser support for transition property*/
+	/*webkit is a prefix engine for browsers such
+	as Safari*/
+	/*moz is a prefix engine for FireFox*/
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+
+	/*Make squares into circles*/
+	/*border-radius: 50%;*/ 
+}
+
+#container {
+	/*margin of 20px on top and bottom
+	and auto on left and right of 
+	container makes the squares the
+	same size and is centered on screen*/
+	/*20px on top and bottom will add a
+	little space between striped div and
+	the grid of squares*/
+	margin: 20px auto;
+	/*max-width of 600px makes the squares
+	smaller*/
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	/*Get rid of space between h1 text and span*/
+	line-height: 1.1;
+	color: white;
+	background: blue;
+	/*Get rid of black space on each side of h1*/
+	margin: 0;
+	font-weight: normal;
+	/*Make all h1 text uppercase*/
+	text-transform: uppercase;
+	/*Add space between top and bottom of h1 text*/
+	padding: 20px 0;
+}
+
+/*Make spans have larger font-size*/
+#colorDisplay {
+	font-size: 200%;
+}
+
+/*Make message display property take up middle
+space on div (20% of middle space)*/
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+/*Style stripe on screen*/
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+/*Easy and Hard buttons are selected blue*/
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+/*Get rid of border and background color around
+buttons*/
+button {
+	border: none;
+	background: none;
+	/*Make all h1 text uppercase*/
+	text-transform: uppercase;
+	/*Make buttons take up all space on stripe div*/
+	height: 100%;
+	/*Make font bolder*/
+	font-weight: 700;
+	color: steelblue;
+	/*Make letters space out a little bit*/
+	letter-spacing: 1px;
+	font-size: inherit;
+	/*Add fade-in/fade-out effect to hover*/
+	/*Transition will determine which property to
+	hover and by how many seconds?*/
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	/*Get rid of blue outline when button is pressed*/
+	outline: none;
+}
+
+/*Add a hover effect to the buttons*/
+button:hover {
+	color: white;
+	background: steelblue;
+}
