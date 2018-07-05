@@ -1,0 +1,116 @@
+/*Adds a gradient background(uigradients.com)*/
+body {
+	font-family: Roboto;
+	background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+	/*add blue h1*/
+	background: #2980b9;
+	/*add white text*/
+	color: white;
+	/*give no margin between h1 and ul*/
+	margin: 0;
+	/*add padding to h1 (10px to left/right and 20px to top and bottom)*/
+	padding: 10px 20px;
+	/*make h1 all uppercase*/
+	text-transform: uppercase;
+	font-size: 24px;
+	/*make font-weight normal (b/c h1 is bolded by default)*/
+	font-weight: normal;
+}
+
+/*Adds a red background to the trash icon*/
+li span {
+	background: #e74c3c;
+	height: 40px;
+	/*Adds space btw. icon and li*/
+	margin-right: 20px;
+	text-align: center;
+	/*Make trash icon white*/
+	color: white;
+	width: 0;
+	display: inline-block;
+	/*Animates the trash icon hover effect(Fade-in/out) by 0.2 secs.*/
+	transition: 0.2s linear;
+	/*Hides icon until li is hovered*/
+	opacity: 0;
+}
+
+ul {
+	/*get rid of bullet-points*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Add a white color to li with a height of 40px*/
+li {
+	background: #fff;
+	height: 40px;
+	/*change line to cover entire 40px*/
+	line-height: 40px;
+  /*change li color to slightly black*/
+  color: #666;
+}
+
+/*Moves plus-square icon to the right*/
+.fa-plus-square{
+	float: right;
+}
+
+/*Add a gray color to every other li*/
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
+
+/*Display trash icon using hover effect on li*/
+li:hover span{
+	width: 40px;
+	/*Displays icon only when li is hovered*/
+	opacity: 1.0;
+}
+
+/*Style text input*/
+input {
+	font-size: 18px;
+	color: #2980b9;;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	/*add border-box where width and height includes
+	padding and border but not margin.
+	Need to add web-kit moz(FireFox) or ms(microsoft*/
+	box-sizing: border-box;
+  /*Adds an invisible border to eliminate small gap 
+  btwn. input and top ul*/
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+/*Add a focus effect to input box*/
+input:focus {
+	background: #fff;
+	border: 3px solid #2980b9;
+	/*outline eliminates the browser highlighter when*/
+	/*clicking on input box*/
+	outline: none;
+}
+
+#container {	
+	/*center div*/
+	width: 360px;
+	/*center to-do list*/
+	/*add space to top of div*/
+	margin: 100px auto;
+	background: #f7f7f7;
+	/*add box-shadow(transparent black)*/
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
